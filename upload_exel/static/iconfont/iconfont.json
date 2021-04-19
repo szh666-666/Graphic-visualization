@@ -1,0 +1,23 @@
+{
+  "id": "2436280",
+  "name": "可视化图形",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "567560",
+      "name": "上传文件",
+      "font_class": "shangchuanwenjian",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "4237181",
+      "name": "上传文件",
+      "font_class": "shangchuanwenjian1",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

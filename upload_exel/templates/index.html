@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>生成可视化图形系统</title>
+    <link rel='stylesheet'  href={{url_for('static', filename='my.css')}}>
+    <link rel='stylesheet' href={{ url_for('static', filename='iconfont.css') }}>
+</head>
+<body>
+    <div id='wrapper'>
+        <div id='container'>
+            <div id='title'>
+                <h1 class='t1'>生成可视化图形</h1>
+            </div>
+            <div id="uploader">
+                <div class='center_box'>
+                    <div id='dashed_Area'>
+                        <div id='dashed_Area_pic'>
+                            <i class='shangchuanwenjian1 iconfont icon-shangchuanwenjian1' style='font-size: 90px'></i>
+                        </div>
+                        <p class='t3' id='dashed_Area_text'>
+                            点击上传文件，也可拖曳添加文件
+                            <br />
+                            支持exel格式
+                        </p>
+                    </div>
+
+                    <div id='click_Area'>
+                        <form action="http://localhost:5000/upload_success" method="post" enctype="multipart/form-data">
+                            <input type="file" name="f">
+                            <input type="submit" value="上传">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+#wrapper{
+    padding-top: 70px;
+}
+
+#container{
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    border: 3px solid #73AD21;
+    background-color: rgb(235,243,243)
+}
+
+#uploader{
+    padding-top: 30px;
+    position: relative;
+}
+
+.t1{
+    color: #00c4a4;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+
+.center_box{
+text-align: center}
+
+#dashed_Area{
+    border: 2px dashed #00c4a36b;
+    border-radius: 5px;
+    margin:  auto;
+    width: 400px;
+    padding: 46px 10px 47px;
+}
+
+#click_Area{
+    margin: auto;
+    padding-top: 30px;
+}
+#dashed_Area_pic{
+    color: #00c4a4;
+    text-align: center;
+}
+
+#upload_btn{
+    margin: auto;
+    width: 180px;
+    color: #fff;
+    background-color: #00c4a4;
+    display: block;
+    line-height: 46px;
+    border-radius: 5px;
+    height: 46px;
+}
+
+.t3{
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+
+.shangchuanwenjian{
+    color: white;
+}
+
+#head_radio{
+    padding: 40px 0;
+    text-align: center;
+}

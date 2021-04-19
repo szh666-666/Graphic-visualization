@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>生成可视化图形系统</title>
+    <link rel='stylesheet'  href={{url_for('static', filename='my.css')}}>
+    <link rel='stylesheet' href={{ url_for('static', filename='iconfont.css') }}>
+</head>
+<body>
+    <div id='wrapper'>
+        <div id='container'>
+            <div id='title'>
+                <h1 class='t1'>已获取您感兴趣的数据</h1>
+            </div>
+            <div id="uploader">
+                <h3 style="text-align: center;font-size:18px;color: #838695;">
+                    {{ s1 }} {{ s2 }} {{ s3 }}
+                </h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

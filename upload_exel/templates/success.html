@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>生成可视化图形系统</title>
+    <link rel='stylesheet'  href={{url_for('static', filename='my.css')}}>
+    <link rel='stylesheet' href={{ url_for('static', filename='iconfont.css') }}>
+</head>
+<body>
+    <div id='wrapper'>
+        <div id='container'>
+            <div id='title'>
+                <h1 class='t1'>表格上传成功</h1>
+            </div>
+            <div id="uploader">
+                <h3 style="text-align: center;font-size:18px;color: #838695;">请选择{{ filename }}文件中您感兴趣的数据</h3>
+                <div id="row_radio" style="margin:auto;width:23%;">
+                    <form action="/choose" method="post">
+                        <select name="s1">
+                            {% for r in head_row %}
+                                <option value="{{ r }}">{{ r }}</option>
+                            {% endfor %}
+                        </select>
+                        <select name="s2">
+                            {% for r in head_row %}
+                                <option value="{{ r }}">{{ r }}</option>
+                            {% endfor %}
+                        </select>
+                        <select name="s3">
+                            {% for r in head_row %}
+                                <option value="{{ r }}">{{ r }}</option>
+                            {% endfor %}
+                        </select>
+                        <br>
+                        <center><input type="submit" value="提交"></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
